@@ -3,17 +3,7 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="RestTesting.junit"/>
+      <class name="RestTesting.Trello"/>
     </classes>
   </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="RestTesting.junit">
-        <methods>
-          <include name="BT"/>
-          <include name="test1"/>
-        </methods>
-      </class> <!-- RestTesting.junit -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
